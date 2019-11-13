@@ -1,4 +1,5 @@
 class CashRegister
   
-  def initialize
+  def initialize(discount)
+    
 end
