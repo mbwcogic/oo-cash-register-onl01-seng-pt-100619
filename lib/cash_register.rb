@@ -45,9 +45,9 @@ class CashRegister
     @items
   end
 
-  #def last_transaction_amount=(amount)
-   # @last_transaction_amount = amount
-  #end
+  def last_transaction_amount=(amount)
+    @last_transaction_amount = amount
+  end
 
   #def last_transaction_amount
    # @last_transaction_amount
