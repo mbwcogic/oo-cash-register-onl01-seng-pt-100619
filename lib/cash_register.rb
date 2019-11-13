@@ -9,4 +9,15 @@ class CashRegister
    def total=(value)
     @total = value
   end
+   def discount=(value)
+    @discount = value
+  end
+
+  def discount
+    @discount
+  end
+
+  def total
+    @total
+  end
 end
